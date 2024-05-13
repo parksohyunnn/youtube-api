@@ -80,6 +80,11 @@ export default function ComponentName() {
 - 브라우저 열고 localhost:3000/해당 폴더이름 입력
 - 브라우저 열고 localhost:3000/Home
 
+## scss 페이지 잘 만들어졌는지 확인하는 법
+- scss 폴더 만들기
+- 새로운 터미널 만들기
+- npm run build //입력
+
 
 
 
