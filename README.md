@@ -52,7 +52,7 @@ export default HelloWorld;
 위 코드에서 &lt;div&gt;와 &lt;h1&gt; 등의 태그는 HTML과 유사하게 보이지만, 실제로는 JavaScript 코드입니다. JSX 파일은 이러한 형태로 작성되며, Babel과 같은 도구를 사용하여 일반 JavaScript 코드로 변환됩니다.
 
 ## Home.jsx 폴더에서
-단축키_ rafc   
+단축키_ rafce   
 - "rafc"는 React 함수형 컴포넌트를 자동으로 생성하는 Visual Studio Code의 단축키입니다. 이는 React 개발을 더욱 효율적으로 만들어주는 기능 중 하나입니다. "rafc"를 입력하고 엔터 키를 누르면 다음과 같은 코드가 자동으로 생성됩니다.
 - &lt;div&gt;와 &lt;div&gt; 안에 폴더 이름 넣어주기
 
