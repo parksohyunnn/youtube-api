@@ -41,6 +41,40 @@
 - package.json : 프로젝트 설정과 의존성 정보를 담고 있는 파일입니다. 프로젝트의 이름, 버전, 필요한 라이브러리 등을 정의할 수 있습니다.
 - README.md : 프로젝트에 대한 설명과 사용 방법을 기술하는 마크다운 파일입니다. 다른 개발자들이 프로젝트를 이해하고 사용하는데 도움이 되는 정보를 작성할 수 있습니다.
 
+- 
+### 2. App.js 파일 셋팅
+- App.js 파일에 내용 삭제 후 refce 단축키 입력
+
+````javascript
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      App
+    </div>
+  )
+}
+
+export default App
+````
+
+### 3. index.js 파일 셋팅
+- index.js 파일에 필요없는 파일 삭제하고 아래 파일만 남겨두기
+
+````javascript
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+````
+
 
 ### 2. 필요한 라이브러리 설치
 - react를 설치 `npm create-react-app 폴더이름` : 폴더를 생략하고 싶으면 .으로 표시
