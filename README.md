@@ -141,6 +141,9 @@ npm install react-router-dom axios react-icons react-player sass react-helmet-as
 - assets 폴더 안에 fonts/img/scss 폴더를 만듭니다.
 - scss 폴더안에 style.scss파일을 만듭니다.
 
+- scss 폴더안에 section/setting 폴더도 만들어 줍니다.
+<img width="285" alt="스크린샷 2024-05-20 오후 3 54 41" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/2e0a929a-2336-4ed9-8626-dcffa9b258b6">
+
 ## 사용스택
 - node.js를 설치하고 사용합니다. 
 - react를 사용하여 사이트를 완성합니다. 
