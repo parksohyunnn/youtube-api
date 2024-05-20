@@ -36,21 +36,19 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 2_1. 폴더 정리하기    
 2_2. 라이브러리 설치하기    
        
-3. Git 연동하기
-                                
+3. Git 연동하기             
 3_1. 저장소 만들기    
 3_2. 모든 파일 올리기    
 3_3. 깃 상태 확인하기 
 
-4. SCSS 셋팅하기
-                    
-4_1. SCSS 설정하기
-4_2. style.scss 설정하기
-4_3. fonts.scss 설정하기
-4_4. vars.scss 설정하기
-4_5. reset.scss 설정하기
-4_6. mixin.scss 설정하기
-4_7. common.scss 설정하기
+4. SCSS 셋팅하기         
+4_1. SCSS 설정하기    
+4_2. style.scss 설정하기    
+4_3. fonts.scss 설정하기    
+4_4. vars.scss 설정하기    
+4_5. reset.scss 설정하기    
+4_6. mixin.scss 설정하기    
+4_7. common.scss 설정하기    
 
 ## 2. 라이브러리 설치하기    
 
