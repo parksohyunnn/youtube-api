@@ -135,7 +135,7 @@ npm install react-router-dom axios react-icons react-player sass react-helmet-as
 
 ### 4-1.  스타일 폴더 만들기
 
-<img width="100" alt="스크린샷 2024-05-20 오후 3 49 58" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/75676ff8-6d3b-4e43-85f4-b953e1d0f575">
+<img width="300" alt="스크린샷 2024-05-20 오후 3 49 58" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/75676ff8-6d3b-4e43-85f4-b953e1d0f575">
 
 - src 폴더에 assets폴더를 만들어 줍니다.
 - assets 폴더 안에 fonts/img/scss 폴더를 만듭니다.
