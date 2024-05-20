@@ -142,23 +142,40 @@ npm install react-router-dom axios react-icons react-player sass react-helmet-as
 - scss 폴더안에 style.scss파일을 만듭니다.
 
 - scss 폴더안에 section/setting 폴더도 만들어 줍니다.
-<img width="285" alt="스크린샷 2024-05-20 오후 3 54 41" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/2e0a929a-2336-4ed9-8626-dcffa9b258b6">
-
-<br>
-
+<img width="285" alt="스크린샷 2024-05-20 오후 3 54 41" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/2e0a929a-2336-4ed9-8626-dcffa9b258b6">     
+     
 - setting 폴더안에 scss 파일을 만듭니다. 가독성을 위해 파일명 앞에 _를 붙여줍니다.
-<img width="287" alt="스크린샷 2024-05-20 오후 3 58 25" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/fe64c18f-219f-40c6-9de6-6a4673ccb7ee">
+<img width="287" alt="스크린샷 2024-05-20 오후 3 58 25" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/fe64c18f-219f-40c6-9de6-6a4673ccb7ee">         
 
-<br>
-
-
-- @charset "UTF-8"; 언어를 전세계로 설정
+### 4_2. style.scss 설정하기   
+- @charset "UTF-8"; 언어를 전세계로 설정     
 - style.scss 파일에 scss 파일들을 임포트 시켜줍니다.
 <img width="696" alt="스크린샷 2024-05-20 오후 4 09 54" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/9e29458e-3a7f-4473-ae64-78869f0224fc">
 
-<br>
+````scss
+@charset "UTF-8";
 
-- index.js 파일안에 style.scss파일을 임포트 시켜 줍니다.
+// setting
+@import "setting/fonts";
+@import "setting/vars";
+@import "setting/reset";
+@import "setting/mixin";
+@import "setting/common";
+````
+- @charset "UTF-8"; : 이 부분은 문서의 문자 인코딩을 설정하는 것으로, 해당 SCSS 파일의 문자 인코딩이 UTF-8임을 나타냅니다.
+- @import "setting/fonts"; : 폰트 파일과 관련된 CSS를 설정합니다.
+- @import "setting/vars"; : 변수와 관련된 CSS를 설정합니다.
+- @import "setting/reset"; : 브라우저 스타일 초기화나 리셋 관련 CSS를 설정합니다.
+- @import "setting/mixin"; : 믹스인과 관련된 CSS를 설정합니다.
+- @import "setting/common"; : 공통적인 CSS 스타일을 설정합니다.
+- UTF-8은 "Unicode Transformation Format - 8-bit"의 약자로, 
+- 다양한 문자와 문자열을 컴퓨터에서 표현하기 위한 문자 인코딩 방식 중 하나입니다. 
+- Unicode는 전 세계의 모든 문자를 고유한 코드 포인트로 나타내는 국제 표준입니다. 
+- 이를 컴퓨터에서 저장하고 전송하기 위해서는 효율적인 방식이 필요한데, 그 역할을 하는 것이 UTF-8입니다.
+
+
+     
+- index.js 파일안에 style.scss파일을 임포트 시켜 줍니다.     
 <img width="869" alt="스크린샷 2024-05-20 오후 4 11 52" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/94eeb6ad-4e6a-45c7-8a2c-53232d07dc91">
 
       
