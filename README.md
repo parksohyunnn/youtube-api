@@ -2,8 +2,15 @@
 
 ## 작업 순서
 1. node.js 설치 / 버전 확인
-2. 폴더 셋팅 : 필요없는 파일 제거
+2. react 설치
+3. 라이브러리 설치
+4. 폴더 셋팅 : 필요없는 파일 제거
+5. header 설정
+6. Suspense 설정
+7. 걱 페이지 메타 태그 설정(HelmetProvider)
 
+## 실행하기
+'npm start' : 리엑트 실행하기
 
 ## 필요한 라이브러리 설치
 - react를 설치 `npm create-react-app 폴더이름` : 폴더를 생략하고 싶으면 .으로 표시
@@ -84,6 +91,8 @@ export default function ComponentName() {
 - scss 폴더 만들기
 - 새로운 터미널 만들기
 - npm run build //입력
+
+- ##
 
 
 
