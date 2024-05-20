@@ -143,14 +143,21 @@ npm install react-router-dom axios react-icons react-player sass react-helmet-as
 
 - scss 폴더안에 section/setting 폴더도 만들어 줍니다.
 <img width="285" alt="스크린샷 2024-05-20 오후 3 54 41" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/2e0a929a-2336-4ed9-8626-dcffa9b258b6">
-      
+
+<br>
+
 - setting 폴더안에 scss 파일을 만듭니다. 가독성을 위해 파일명 앞에 _를 붙여줍니다.
 <img width="287" alt="스크린샷 2024-05-20 오후 3 58 25" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/fe64c18f-219f-40c6-9de6-6a4673ccb7ee">
-      
+
+<br>
+
+
 - @charset "UTF-8"; 언어를 전세계로 설정
 - style.scss 파일에 scss 파일들을 임포트 시켜줍니다.
 <img width="696" alt="스크린샷 2024-05-20 오후 4 09 54" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/9e29458e-3a7f-4473-ae64-78869f0224fc">
-      
+
+<br>
+
 - index.js 파일안에 style.scss파일을 임포트 시켜 줍니다.
 <img width="869" alt="스크린샷 2024-05-20 오후 4 11 52" src="https://github.com/parksohyunnn/parksohyunnn.github.io/assets/164127801/94eeb6ad-4e6a-45c7-8a2c-53232d07dc91">
 
